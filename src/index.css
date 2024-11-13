@@ -1,0 +1,33 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* index.css */
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  @apply text-green-400 font-mono;
+
+  /* Fundo com animação de gradiente */
+  background: linear-gradient(130deg, #0b0c10, #1f1f1f, #121212);
+  background-size: 200% 200%;
+  animation: waterFlow 30s ease-in-out infinite;
+}
+
+/* Animação lenta */
+@keyframes waterFlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
