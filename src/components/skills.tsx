@@ -21,7 +21,7 @@ const Skills: React.FC = () => {
             <li className="flex items-center"><FaJs className="mr-2 text-yellow-500" /> Javascript, HTML5 e CSS3</li>
             <li className="flex items-center"><FaReact className="mr-2 text-cyan-400" /> React</li>
             <li className="flex items-center"><FaNodeJs className="mr-2 text-green-400" /> Node & npm</li>
-            <li className="flex items-center"><FaPython className="mr-2 text-blue-500" /> Noções de Python</li>
+            <li className="flex items-center"><FaPython className="mr-2 text-blue-500" />Python</li>
             <li className="flex items-center"><SiSvelte className="mr-2 text-orange-500" /> Noções de Svelte</li>
             <li className="flex items-center"><SiVuedotjs className="mr-2 text-green-400" /> Noções de Vue.js</li>
           </ul>
