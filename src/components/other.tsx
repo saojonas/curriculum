@@ -6,8 +6,8 @@ const AdditionalInfo: React.FC = () => {
     <section className="mb-6 p-6 border border-neonGreen rounded-lg bg-gray-950 shadow-neon transition-all hover:shadow-lg">
       <h2 className="text-2xl font-semibold mb-4 text-white">Informações Complementares</h2>
       
-      <p className="text-white mb-2">Buscando por experiências profissionais na área de desenvolvimento.</p>
-      <p className="text-white mb-4">Idiomas: Inglês de nível intermediário, Espanhol de nível básico.</p>
+      <p className="text-white mb-2">Buscando por experiências profissionais na área de desenvolvimento e no ensino técnico.</p>
+      <p className="text-white mb-4">Idiomas: Proeficiência atestada em Inglês, Espanhol de nível intermediário.</p>
 
       <div className="flex justify-center space-x-6">
   <a
